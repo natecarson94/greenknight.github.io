@@ -1,0 +1,32 @@
+.container-fluid {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: #c3e4c7;
+}
+
+.container-fluid p {
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+#contacts {
+  display: grid;
+  justify-items: center;
+}
+
+#contacts p {
+  background-color: #3ab54c;
+  border: 1px solid black;
+  min-width: 30%;
+  width: 70%;
+  padding: 0.5em;
+  font-size: 1.3em;
+  margin-top: 2.5em;
+}
+
+@media (min-width: 960px) {
+  #contacts {
+    grid-template-columns: 1fr 1fr;
+  }
+}

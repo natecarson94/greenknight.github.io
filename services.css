@@ -1,0 +1,36 @@
+.offering {
+  height: 20em;
+  width: 100%;
+  padding: 0 0.5em 0.5em 0.5em;
+}
+
+.container-fluid {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  text-align: center;
+  padding-bottom: 3em;
+  background-color: #c3e4c7;
+}
+
+.container-fluid h1 {
+  margin: 1em 0;
+}
+
+.card {
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+@media (min-width: 960px) {
+  .offering {
+    height: 30em;
+  }
+  .container-fluid h1 {
+    grid-column: 1/3;
+  }
+
+  .card {
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+}

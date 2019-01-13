@@ -1,0 +1,56 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+}
+
+nav {
+  padding: 0.5em;
+  background-color: #cacbcd;
+}
+.header a img {
+  margin: 1em;
+}
+nav a {
+  margin: 0.3em;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #3ab54c;
+}
+
+@media (min-width: 900px) {
+  .carousel-inner {
+    height: 40em;
+  }
+}
+
+.home-text {
+  text-align: center;
+  margin: 2em;
+}
+.home-text h2 {
+  padding: 0.25em;
+}
+.home-text p {
+  font-size: 1.1em;
+  padding: 0.25em;
+}
+
+.foot {
+  margin-bottom: 0;
+  width: 100%;
+  height: 2em;
+  background-color: #cacbcd;
+}
+
+.foot p {
+  margin-bottom: 0;
+  text-align: center;
+}
